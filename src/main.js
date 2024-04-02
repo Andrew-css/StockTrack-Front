@@ -10,7 +10,7 @@ import App from "./App.vue";
 
 // axios.defaults.baseURL = 'http://localhost:4500/api/'
 // axios.defaults.baseURL = "https://stocktrack-backend.onrender.com/api/";
-axios.defaults.baseURL = "https://stocktrack-sena.azurewebsites.net/"
+axios.defaults.baseURL = "https://stocktracksena.azurewebsites.net/api/"
 
 const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate)
